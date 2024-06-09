@@ -2,14 +2,14 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from AarohiX import YouTube, app
-from AarohiX.core.call import Dil
-from AarohiX.misc import db
-from AarohiX.utils.database import get_loop
-from AarohiX.utils.decorators import AdminRightsCheck
-from AarohiX.utils.inline import close_markup, stream_markup
-from AarohiX.utils.stream.autoclear import auto_clean
-from AarohiX.utils.thumbnails import get_thumb
+from SlayerX import YouTube, app
+from SlayerX.core.call import Dil
+from SlayerX.misc import db
+from SlayerX.utils.database import get_loop
+from SlayerX.utils.decorators import AdminRightsCheck
+from SlayerX.utils.inline import close_markup, stream_markup
+from SlayerX.utils.stream.autoclear import auto_clean
+from SlayerX.utils.thumbnails import get_thumb
 from config import BANNED_USERS
 
 
