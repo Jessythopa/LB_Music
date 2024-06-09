@@ -31,11 +31,11 @@ from SlayerX.utils.database import (
     remove_active_video_chat,
     set_loop,
 )
-from Slayer.utils.exceptions import AssistantErr
+from SlayerX.utils.exceptions import AssistantErr
 from SlayerX.utils.formatters import check_duration, seconds_to_min, speed_converter
-from Slayer.utils.inline.play import stream_markup
-from Slayer.utils.stream.autoclear import auto_clean
-from Slayer.utils.thumbnails import get_thumb
+from SlayerX.utils.inline.play import stream_markup
+from SlayerX.utils.stream.autoclear import auto_clean
+from SlayerX.utils.thumbnails import get_thumb
 from strings import get_string
 
 autoend = {}
