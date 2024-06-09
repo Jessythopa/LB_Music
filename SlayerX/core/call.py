@@ -17,9 +17,9 @@ from pytgcalls.types.input_stream.quality import HighQualityAudio, MediumQuality
 from pytgcalls.types.stream import StreamAudioEnded
 
 import config
-from SlayerX import LOGGER, YouTube, app
-from SlayerX.misc import db
-from SlayerX.utils.database import (
+from Slayer import LOGGER, YouTube, app
+from Slayer.misc import db
+from Slayer.utils.database import (
     add_active_chat,
     add_active_video_chat,
     get_lang,
@@ -31,11 +31,11 @@ from SlayerX.utils.database import (
     remove_active_video_chat,
     set_loop,
 )
-from SlayerX.utils.exceptions import AssistantErr
+from Slayer.utils.exceptions import AssistantErr
 from SlayerX.utils.formatters import check_duration, seconds_to_min, speed_converter
-from SlayerX.utils.inline.play import stream_markup
-from SlayerX.utils.stream.autoclear import auto_clean
-from SlayerX.utils.thumbnails import get_thumb
+from Slayer.utils.inline.play import stream_markup
+from Slayer.utils.stream.autoclear import auto_clean
+from Slayer.utils.thumbnails import get_thumb
 from strings import get_string
 
 autoend = {}
