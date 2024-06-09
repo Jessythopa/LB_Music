@@ -19,6 +19,7 @@ from pytgcalls.types.stream import StreamAudioEnded
 import config
 from SlayerX import LOGGER, YouTube, app
 from SlayerX.misc import db
+from SlayerX.core.call import Slayer
 from SlayerX.utils.database import (
     add_active_chat,
     add_active_video_chat,
