@@ -194,17 +194,17 @@ async def greet_new_member(_, member: ChatMemberUpdated):
             temp.MELCOW[f"welcome-{member.chat.id}"] = await app.send_photo(
                 member.chat.id,
                 photo=welcomeimg,
-                caption=f"""
-**❅────✦ ᴡᴇʟᴄᴏᴍᴇ ✦────❅**
+                caption= f"""
+**
+ㅤㅤㅤ◦•●◉✿ ᴡᴇʟᴄᴏᴍᴇ ʙᴀʙʏ ✿◉●•◦
+▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▰
 
-▰▰▰▰▰▰▰▰▰▰▰▰▰
-**➻ ɴᴀᴍᴇ »** {user.mention}
-**➻ ɪᴅ »** `{user.id}`
-**➻ ᴜ_ɴᴀᴍᴇ »** @{user.username}
-**➻ ᴛᴏᴛᴀʟ ᴍᴇᴍʙᴇʀs »** {count}
-▰▰▰▰▰▰▰▰▰▰▰▰▰
+● ɴᴀᴍᴇ ➥  {user.mention}
+● ᴜsᴇʀɴᴀᴍᴇ ➥  @{user.username}
+● ᴜsᴇʀ ɪᴅ ➥  {user.id}
 
-**❅─────✧❅✦❅✧─────❅**
+❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ [𝘼𝙢𝙧𝙞𝙩𝙖 ♡゙](https://t.me/Amrira_Assist1)**
+▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▰
 """,
                 reply_markup=InlineKeyboardMarkup([
                     [InlineKeyboardButton(button_text, url=deep_link)],
