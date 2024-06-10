@@ -109,7 +109,7 @@ def welcomepic(pic, user, chatname, id, uname, brightness_factor=1.3):
     background = Image.open("SlayerX/assets/wel2.png")
     pfp = Image.open(pic).convert("RGBA")
     pfp = circle(pfp, brightness_factor=brightness_factor) 
-    pfp = pfp.resize((400, 400))
+    pfp = pfp.resize((200, 200))
     draw = ImageDraw.Draw(background)
     font = ImageFont.truetype('SlayerX/assets/font.ttf', size=70)
     welcome_font = ImageFont.truetype('SlayerX/assets/font.ttf', size=61)
